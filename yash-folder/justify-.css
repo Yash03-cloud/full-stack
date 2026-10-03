@@ -1,0 +1,57 @@
+header{
+    border: 2px solid black;
+    /* padding: 1rem; */
+    
+
+}
+nav{
+    padding: 1%;
+    background-color: aqua;
+     display: flex;
+    justify-content: space-around;
+}
+a{
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-size: larger;
+    text-decoration: none;
+   
+}
+.logo{
+    height: 50px;
+    width: 50px;
+}
+main{
+    background-color: black;
+}
+#dear{
+    height: 300px;
+    width: 300px;
+    background-color: aqua;
+    padding: 2%;
+}
+.row{
+    border: 3px solid white ;
+    /* border-radius: 2% 3%; */
+
+}
+.rabit{
+    height: 300px;
+    width: 300px;
+    background-color: blue;
+    padding: 2%;
+}
+p{
+    text-align: justify;
+    color: rgb(166, 22, 22);
+}
+#justify{
+display: flex;
+justify-content: end;
+
+}
+#justify-left{
+display: flex;
+justify-content: left;
+}
