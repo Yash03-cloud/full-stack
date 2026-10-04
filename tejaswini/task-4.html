@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form{
+            border: 2px solid black;
+            height: 30%;
+            width: 30%;
+            padding: 1%;
+        }
+       
+        button{
+            color: black;
+            padding: 1%;
+            text-align: center;
+        }
+        button:hover{
+            color: brown;
+        }
+
+    </style>
+</head>
+<body>
+    <form action="submit">
+        <h2>course enrollment form</h2>
+        <br>
+        <label for="student name">student name</label>
+        <input type="text" placeholder="enter your name">
+        <br>
+        <label for="tel">enter your number</label>
+        <input type="number" placeholder="enter number">
+        <br>
+        <label for="date">date of birth</label>
+        <input type="date" >
+        <br>
+        <label for="course">select course</label>
+        <select name="course" id="">
+                <option value="apple">fullstack</option>
+                <option value="banana">frontend</option>
+                <option value="mango">backend</option>
+                <option value="grapes">javascript</option>
+            </select>
+            <br>
+            <button type="submit">submit</button>
+    </form>
+    
+</body>
+</html>
