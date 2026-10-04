@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form{
+            border: 3px solid red;
+            width: 30%;
+            height: 30%;
+            padding:2%;
+        }
+         button{
+            color: black;
+            padding: 1%;
+            margin: 10%;
+        }
+        button:hover{
+            color: rgb(77, 42, 165);
+        }
+    </style>
+</head>
+<body>
+    <form action="submit">
+        <h2> online survey form</h2>
+        <br>
+        <label for="name">enter name</label>
+        <input type="text"placeholder="enter name">
+        <br>
+        <label for="gender">choose your gender</label>
+        <input type="radio" id="male" name="gender"value="male">
+        <label for="male">male</label>
+        <input type="radio"id ="female" name="gender" value="female">
+        <label for="female">female</label>
+        <br>
+        <label for="hobbies">hobbies</label>
+        <textarea name="hobbies" id=""></textarea>
+        <br>
+        <label for="color">favorite color</label>
+        <input type="color" name="color" id="color">
+        <br>
+        <button type="submit"> submit</button>
+    </form>
+    
+</body>
+</html>
