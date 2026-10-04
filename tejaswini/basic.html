@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form{
+            border: 2px solid black;
+            width: 30%;
+            height: 30%;
+            padding: 2%;
+            box-shadow: 3px 4px 6px 1px rebeccapurple;
+        }
+        button{
+            margin-left:40%;
+            color: brown;
+            padding: 1%;
+        }
+        *{
+            margin: 0%;
+            padding: 0%;
+        }
+        button:hover{
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <h1> basic input field</h1>
+    <br>
+    <form action="submit">
+        <label for="name"> enter your name</label>
+        <input type="text" placeholder="your full name">
+        <br>
+        <label for="email">enter your email</label>
+        <input type="email" placeholder="enter your email">
+        <br>
+        <label for="gender"> choose your gender</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male"> male </label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female"> female </label>
+        <br>
+        <label for="massege"> enter massege</label>
+        <textarea name="massege" id=""></textarea>
+        <br>
+        <button type="submit"> submit</button>
+</form>
+    
+</body>
+</html>
