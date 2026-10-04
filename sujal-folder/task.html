@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>student registration form</title>
+    <style>
+        form{
+            border: 5px solid red;
+            height: 50%;
+            width: 50%;
+            padding: 3%;
+            box-shadow: 3px 5px 7px 2px black;
+            background-color: wheat;
+
+        }
+        button{
+            margin-left: 40%;
+            color: black;
+            background-color: red;
+        }
+        button:hover{
+            background-color: green;
+        }
+    </style>
+</head>
+<body>
+    <form action="">
+    <h1>student registration form</h1>
+    <br>
+    <label for="name">Enter Your Name</label>
+    <input type="text" placeholder="enter your name">
+    <br>
+    <br>
+    <label for="email">Enter Your Email</label>
+    <input type="Email" placeholder="Enter your Email">
+    <br>
+    <br>
+    <label for="Age">Enter Your Age</label>
+    <input type="number" placeholder="Enter Your Age">
+    <br>
+    <br>
+    <Button>Submit</Button>
+    </form>
+    <br>
+    <br>
+    <form action="">
+        <h1>login page</h1>
+        <br>
+        <label for="username">enter your username</label>
+        <input type="text" placeholder="enter your username">
+        <br>
+        <br>
+        <label for="email">enter your email</label>
+        <input type="email" placeholder="enter your email">
+        <br>
+        <br>
+        <label for="password">enter your password</label>
+        <input type="number" placeholder="enter your password">
+        <br>
+        <br>
+        <button>login</button>
+    </form>
+    <br>
+    <br>
+    <form action="">
+        <h1>feedback form</h1>
+        <br>
+        <label for="name">enter your name</label>
+        <input type="text" placeholder="enter your name">
+        <br>
+        <br>
+        <label for="email">enter your email</label>
+        <input type="email" placeholder="enter your email">
+        <br>
+        <br>
+        <label for="feedback">feedback</label>
+        <textarea name="enter your message" id=""></textarea>
+        <br>
+        <br>
+        <button>submit</button>
+    </form>
+    <form action="">
+    <h2>Course Enrollment Form</h2>
+    <form>
+        <label for="name">Student Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="phone">Phone Number:</label><br>
+        <input type="tel" id="phone" name="phone" required><br><br>
+
+        <label for="dob">Date of Birth:</label><br>
+        <input type="date" id="dob" name="dob" required><br><br>
+
+        <label for="course">Course Selection:</label><br>
+        <select id="course" name="course" required>
+            <option value="">Select a Course</option>
+            <option value="python">Python Programming</option>
+            <option value="java">Java Development</option>
+            <option value="web">Web Development</option>
+            <option value="data">Data Science</option>
+        </select><br><br>
+
+        <button type="submit">Submit</button>
+
+    </form>
+    <form action="">
+        
+    <h2>Online Survey Form</h2>
+     
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label>Gender:</label><br>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br>
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Other</label><br><br>
+
+        <label>Hobbies:</label><br>
+        <input type="checkbox" id="reading" name="hobbies" value="reading">
+        <label for="reading">Reading</label><br>
+        <input type="checkbox" id="sports" name="hobbies" value="sports">
+        <label for="sports">Sports</label><br>
+        <input type="checkbox" id="music" name="hobbies" value="music">
+        <label for="music">Music</label><br>
+        <input type="checkbox" id="traveling" name="hobbies" value="traveling">
+        <label for="traveling">Traveling</label><br><br>
+        <label for="favcolor">Favorite Color:</label><br>
+        <input type="color" id="favcolor" name="favcolor" value="#ff0000"><br><br>
+        <button type="submit">Submit</button>
+    </form>
+    
+</body>
+</html>
