@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        :root {
+            --color: green;
+            --seccolor: yellow;
+            --thirdcolor: red;
+            --defaultpadding: 10px;
+        }
+
+        .box1 {
+            width: 500px;
+            height: 100px;
+            background-color: rgb(83, 56, 20);
+            border: 10px solid rgb(227, 19, 19);
+            box-shadow: 2px 3px 7px 7px;
+            z-index: 1;
+            position: relative;
+            left: 40px;
+        }
+
+        .box2 {
+            width: 500px;
+            height: 100px;
+            background-color: rgb(35, 199, 23);
+            border: 10px solid rgb(227, 19, 19);
+            box-shadow: 2px 3px 7px 7px;
+            z-index: 2;
+            position: relative;
+            left: 60px;
+            bottom: 20px;
+        }
+
+        .box3 {
+            width: 500px;
+            height: 100px;
+            background-color: rgb(226, 150, 49);
+            border: 10px solid rgb(227, 19, 19);
+            box-shadow: 2px 3px 7px 7px;
+            z-index: 4;
+            position: relative;
+            bottom: 40px;
+            left: 3%;
+        }
+
+        .box4 {
+            width: 500px;
+            height: 100px;
+            background-color: rgb(126, 239, 19);
+            border: 10px solid rgb(227, 19, 19);
+            box-shadow: 2px 3px 7px 7px;
+            z-index: 3;
+            position: relative;
+            bottom: 80px;
+            left: 5%;
+        }
+
+        .scroll {
+            overflow: auto;
+            border: 2px solid;
+            width: 50vw;
+            height: 20vh;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Z index</h2>
+    <div class="box1"></div>
+    <div class="box2"></div>
+    <div class="box3"></div>
+    <div class="box4"></div>
+    <h2>Scroll paragaph</h2>
+    <div class="scroll">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae ipsum quas ullam provident pariatur deleniti
+            excepturi possimus facere error, quidem nostrum impedit aut velit, necessitatibus laborum modi laudantium,
+            dolorem saepe?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus illum earum ipsam maiores suscipit
+            repellendus, temporibus sapiente in alias eligendi culpa tempora illo consequatur quibusdam beatae, tenetur
+            ut corrupti fugiat.</p>
+    </div>
+</body>
+
+</html>
